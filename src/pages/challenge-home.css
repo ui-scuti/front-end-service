@@ -1,0 +1,117 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+} */
+
+/* Body */
+
+/* body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+
+/* Container */
+
+/* 
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    ;
+} */
+
+/* Cards */
+
+.card-challenge {
+    /* width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative; */
+    /* cursor: pointer; */
+}
+
+.card-challenge:hover .box {
+    /* transform: translateY(-50px); */
+    /* box-shadow: 0 40px 70px rgba(0, 0, 0, .5); */
+}
+
+.card-challenge:hover .box .content {
+    opacity: 1;
+}
+
+.card-challenge .box {
+    /* background-color: #2a2b2f;
+    border: 1px solid #1a1f23;
+    box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, .1), -8px -8px 18px 0 rgba(100, 100, 100, .1);
+    border-radius: 10px; */
+    /* transition: .5s; */
+    /* position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    overflow: hidden; */
+}
+
+.box::before {
+    /* content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    background-color: rgba(255, 255, 255, .03);
+    pointer-events: none; */
+}
+
+.box .content {
+    /* color: #fff;
+    opacity: .4;
+    transition: .5s; */
+}
+
+.content h2 {
+    /* position: absolute; */
+    /* top: -15px;
+    width: 100%;
+    right: 10px;
+    font-size: 8em; */
+    /* color: rgba(255, 255, 255, .05); */
+}
+
+.content h3 {
+    /* font-size: 2rem;
+    z-index: 1; */
+}
+
+.content p {
+    /* font-size: 1rem;
+    line-height: 1.9;
+    z-index: 1; */
+}
+
+.content a {
+    /* color: #fff;
+    text-decoration: none;
+    padding: 8px 20px;
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 15px; */
+}
