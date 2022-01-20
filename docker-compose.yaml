@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+    data-loader:
+        network_mode: host
+        restart: always
+        build:
+            dockerfile: Dockerfile
+            context: ./
+        environment:

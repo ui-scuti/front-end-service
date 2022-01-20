@@ -1,0 +1,115 @@
+.themed-cards {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.themed-card_image {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.themed-card_image > img {
+	height: 100%;
+	width: auto;
+}
+@media (min-width: 40rem) {
+	.themed-cards_item {
+		width: 50%;
+	}
+}
+
+@media (min-width: 56rem) {
+	.themed-cards_item {
+		width: 33.3333%;
+	}
+}
+
+.themed-card {
+	position: relative;
+	width: 500px;
+	height: 300px;
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 25px;
+	box-shadow: 0 25px 25px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	border-top: 1px solid rgba(255, 255, 255, 0.25);
+	transition: 1s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	cursor: pointer;
+}
+
+.themed-card:hover {
+	border-color: #fff;
+}
+.themed-card:hover ~ .themed-card_image {
+	height: 0px;
+}
+
+.themed-card_content {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.themed-card_title {
+	color: #fff;
+	border-bottom: 1px solid #d4b255;
+	font-size: 1.5rem;
+	font-weight: 700;
+	padding: 1rem 0;
+}
+
+.right {
+	float: right;
+}
+
+.themed-card_text {
+	color: #fff;
+	padding: 0.5rem 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	flex: 1;
+}
+
+.note {
+	border-left: 1px solid #d4b255;
+	padding-left: 4px;
+}
+
+.option {
+	list-style-type: none;
+	padding: 10px;
+	line-height: 20px;
+}
+
+.option li {
+	margin: auto;
+}
+
+.option li:before {
+	content: '+ ';
+	background-color: #222;
+	color: #d4b255;
+}
+
+.note,
+.right,
+p,
+.option > li,
+.option,
+em {
+	background-color: #222;
+}
+.option > li > a {
+	overflow: hidden;
+}
