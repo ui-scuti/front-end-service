@@ -55,7 +55,7 @@
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
-		"start": "set PORT=8004 && set BROWSER=none && craco start",
+		"start": "set PORT=8052 && set BROWSER=none && craco start",
 		"build": "craco build",
 		"test": "craco test",
 		"eject": "react-scripts eject"

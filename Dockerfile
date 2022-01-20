@@ -10,5 +10,5 @@ WORKDIR /usr/src
 COPY . .
 WORKDIR /usr/src/app
 
-EXPOSE 8051
+EXPOSE 8052
 CMD [ "sh", "entry_point.sh" ]
