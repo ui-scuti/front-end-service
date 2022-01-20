@@ -10,7 +10,8 @@ set -e
 echo "Installing dependencies..."
 yarn
 
+echo "Building project"
+yarn build
 
-echo "Starting server"
-echo "-------------------------------------------------------------------------"
-yarn run start
+echo "Starting application"
+yarn start
