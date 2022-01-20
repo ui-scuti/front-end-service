@@ -1,0 +1,10 @@
+[5302] [2021-11-24T11:49:18.882] [INFO] User-Management - Initiating google Authentication for ID: 60f1a40ea5f047057017f3c0
+[5302] [2021-11-24T11:49:18.892] [INFO] User-Management - Autentication success for : undefined
+[5302] [2021-11-24T11:49:19.028] [INFO] User-Management - Getting permissions for undefined
+[5302] [2021-11-24T11:49:19.033] [INFO] User-Management - Found user : {"username":"koustov@gmail.com","accessToken":"ya29.a0ARrdaM9W08Wf8QzisnOBtuWW7wUnVDFm-4sS0RSxVuvLV0neJLjbxHHnRCDG0wnqqUL5FYaZh_ePbxSgTYB-EVu0JfwgG_FVpw7fwnbL4fGUpsulbbMEToGydoGkQNnrNRR1XKoIISeuyNj0qzvHhR84HQ_0Qvs","id":"117115211588301775710","firstName":"Koustov","lastName":"M","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GiZAMfDNXIOlc__3zcPMlKLSJJtZkZwemA5mVwmrw=s96-c","name":"Koustov M","email":"koustov@gmail.com","isadmin":false,"createdDate":"2021-07-16T15:21:50.363Z"}
+[5302] [2021-11-24T11:49:19.033] [INFO] User-Management - All roles : 60f1a7e5a7ec7c1cd11aadaf
+[5302] [2021-11-24T11:49:19.082] [INFO] User-Management - Found role : admin
+[5302] [2021-11-24T11:49:19.082] [INFO] User-Management - Permissions : c_m,u_m,a_m
+[5302] [2021-11-24T11:49:19.082] [INFO] User-Management - Final PermissionsXXXX : c_m,u_m,a_m
+[5302] [2021-11-24T11:49:19.083] [INFO] User-Management - Here
+[5302] [2021-11-24T11:49:19.083] [INFO] User-Management - All Permissions : c_m,u_m,a_m
