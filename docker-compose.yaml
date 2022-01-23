@@ -1,9 +1,15 @@
 version: '3.3'
 services:
-    data-loader:
-        network_mode: host
+    front-end-service:
+        container_name: front-end-service
         restart: always
+        ports:
+            - '3000:3000'
         build:
             dockerfile: Dockerfile
             context: ./
         environment:
+            - MONGO_SERVER=localhost
+            - MONGO_USER=admin
+            - MONGO_PASSWORD=admin
+            - MONGO_DB=ui.scuti
